@@ -16,10 +16,6 @@ class Dog
   end
 
   def self.print_all
-    all_dogs = []
-    @@all.each do |dog|
-      all_dogs << dog
-    end
-    puts "#{all_dogs}"
+      puts "#{dog_name}"
   end
 end
